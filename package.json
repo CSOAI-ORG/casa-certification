@@ -1,0 +1,46 @@
+{
+  "name": "@meok-global/casa-certification",
+  "version": "1.0.0",
+  "description": "CASA Certification - CSOAI-Authorised Safety Assessment MCP Server",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "casa-certification-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  },
+  "author": "MEOK AI Labs — Cyber Security Global Alliance",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meok-global/mcp-servers.git",
+    "directory": "packages/casa-certification"
+  },
+  "homepage": "https://meok-global.org/casa",
+  "keywords": [
+    "mcp",
+    "casa",
+    "certification",
+    "ai-safety",
+    "assessment",
+    "compliance",
+    "audit"
+  ]
+}
